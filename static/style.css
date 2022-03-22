@@ -40,6 +40,10 @@ form input{
     margin-left: 10%;
 }
 
+/*----------------------------------------------------------------------------------------------
+VLAN FORM
+------------------------------------------------------------------------------------------------*/
+
 form#vlan > label {
     float: left;
     width: 200px;
@@ -70,4 +74,12 @@ div#btn_vlan > input:first-of-type {
 
 div#btn_vlan > input{
     width: 70px;
+}
+
+div#btn_vlan > input{
+    width: 70px;
+}
+div#btn_vlan {
+    float: right;
+    margin-right: 10%;
 }
