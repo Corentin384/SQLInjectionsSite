@@ -11,8 +11,10 @@ h1{
 }
 
 h2{
-    margin-left: 35%;
+    margin-top: 5px;
+    margin-left: 34%;
 }
+
 form{
     margin-top: 100px;
     margin-left: 40%;
@@ -36,4 +38,16 @@ img{
 }
 form input{
     margin-left: 10%;
+}
+
+#vlan{
+    margin-left: 40%;
+}
+
+#vlan input{
+    margin-left: 20%;
+}
+
+#first_ip{
+    margin-left: 0px;
 }
