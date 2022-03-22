@@ -2,4 +2,31 @@
     margin : 0;
     padding : 0;
     color : black;
+    font-family: 'Poppins', 'Arial', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+form{
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+p {
+    margin-top: 10px;
+}
+
+#password{
+    margin-left: 6%;
+}
+
+#btn{
+    margin-top: 40%;
+    margin-left: 60%;
+}
+form input{
+    margin-left: 10%;
 }
