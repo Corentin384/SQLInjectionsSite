@@ -23,11 +23,6 @@ form{
 p {
     margin-top: 10px;
 }
-
-img{
-
-}
-
 #password{
     margin-left: 6%;
 }
@@ -40,9 +35,23 @@ form input{
     margin-left: 10%;
 }
 
+img#logo {
+    display: inline;
+    margin: 20px;
+    width: 350px;
+}
+
+body#box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 /*----------------------------------------------------------------------------------------------
 VLAN FORM
 ------------------------------------------------------------------------------------------------*/
+form#vlan {
+    margin: 0
+}
 
 form#vlan > label {
     float: left;
@@ -82,4 +91,17 @@ div#btn_vlan > input{
 div#btn_vlan {
     float: right;
     margin-right: 10%;
+}
+
+div#vlan_block {
+    margin: 20px;
+    display: inline;
+    width: 750px;
+}
+
+div#vlan_block > h1, div#vlan_block > h2 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
 }
