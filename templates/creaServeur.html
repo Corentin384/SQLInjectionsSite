@@ -11,14 +11,14 @@
 <div id="block">
     <h1>GSB - Gestion des Serveurs</h1>
     <h2 id="subtitle">Creation d'un nouveau serveur</h2>
-    <form action="" method="post" onsubmit="return (ValidateIPaddress(document.getElementById('first_ip').value, document.getElementById('mask').value))">
+    <form action="" method="post">
         <label for="serveur_vlan">Choix du VLAN :</label>
         <select name="serveur_vlan" id="serveur_vlan">
             <option value="prod">Prod.</option>
             <option value="test">Test</option>
         </select>
         <div id="btn">
-            <input type="reset" value="Cancel" onclick="return (retourMenu())">
+            <input type="reset" value="Cancel">
             <input type="submit" value="Envoyer">
         </div>
     </form>

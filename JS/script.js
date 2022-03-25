@@ -1,5 +1,5 @@
 function forgetMDP() {
-    alert("Login : jsp \n Mot de passe : 1234");
+    alert("Identifiant par défaut \n Login : Admin \n Mot de passe : 1234");
 }
 
 function retourMenu(){
