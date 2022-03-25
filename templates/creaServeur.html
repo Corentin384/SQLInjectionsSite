@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>GSB - Création d'un nouveau serveur</title>
+    <link rel="stylesheet" href="../static/style.css"/>
+    <script src="../JS/script.js" async></script>
+</head>
+<body id="box">
+<img id="logo" src="../images/logo-gsb.png" alt="logo"/>
+<div id="block">
+    <h1>GSB - Gestion des Serveurs</h1>
+    <h2 id="subtitle">Creation d'un nouveau serveur</h2>
+    <form action="" method="post" onsubmit="return (ValidateIPaddress(document.getElementById('first_ip').value, document.getElementById('mask').value))">
+        <label for="serveur_vlan">Choix du VLAN :</label>
+        <select name="serveur_vlan" id="serveur_vlan">
+            <option value="prod">Prod.</option>
+            <option value="test">Test</option>
+        </select>
+        <div id="btn">
+            <input type="reset" value="Cancel" onclick="return (retourMenu())">
+            <input type="submit" value="Envoyer">
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
